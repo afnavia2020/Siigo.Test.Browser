@@ -35,7 +35,7 @@
 
   <build>
     <!-- so that maven compiles src/test/scala and not just src/test/java -->
-    <testSourceDirectory>src/test/scala</testSourceDirectory>
+    <testSourceDirectory>msBrowser/src/test/scala</testSourceDirectory>
     <plugins>
       <plugin>
         <!-- so that maven can create a jar -->
