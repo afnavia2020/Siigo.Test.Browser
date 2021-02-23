@@ -85,6 +85,5 @@
     <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.42.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.42.Final" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe.akka:akka-actor_2.12:2.5.26" level="project" />
-    <orderEntry type="library" name="scala-sdk-2.12.12" level="application" />
   </component>
 </module>
