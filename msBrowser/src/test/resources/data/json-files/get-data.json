@@ -1,0 +1,10 @@
+{
+  "type":1,
+  "browserID":"${browserId}",
+  "query":"a",
+  "filter":"",
+  "tags":
+  {
+    "@MoneyCode": "COP"
+  }
+}
