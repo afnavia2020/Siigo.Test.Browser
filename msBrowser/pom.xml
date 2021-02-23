@@ -34,7 +34,7 @@
   </dependencies>
 
   <build>
-    <testSourceDirectory>src/test/scala</testSourceDirectory>
+    <testSourceDirectory>src/scala</testSourceDirectory>
 
     <plugins>
       <plugin>
@@ -73,6 +73,7 @@
           </execution>
         </executions>
       </plugin>
+
       <plugin>
         <groupId>io.gatling.frontline</groupId>
         <artifactId>frontline-maven-plugin</artifactId>
