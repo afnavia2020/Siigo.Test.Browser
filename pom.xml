@@ -15,7 +15,7 @@
     <gatling-maven-plugin.version>3.0.5</gatling-maven-plugin.version>
   </properties>
 
-  <dependencies>
+ <dependencies>
     <dependency>
       <groupId>io.gatling.highcharts</groupId>
       <artifactId>gatling-charts-highcharts</artifactId>
@@ -34,19 +34,16 @@
   </dependencies>
 
   <build>
-    <testSourceDirectory>src/scala</testSourceDirectory>
-
+    <!-- so that maven compiles src/test/scala and not just src/test/java -->
+    <testSourceDirectory>src/test/scala</testSourceDirectory>
     <plugins>
-      <plugin>
-        <groupId>io.gatling</groupId>
-        <artifactId>gatling-maven-plugin</artifactId>
-        <version>${gatling-maven-plugin.version}</version>
-      </plugin>
       <plugin>
         <!-- so that maven can create a jar -->
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.2.0</version>
       </plugin>
+
+      <!-- this plugin is so maven can compile your scala code -->
       <plugin>
         <groupId>net.alchim31.maven</groupId>
         <artifactId>scala-maven-plugin</artifactId>
@@ -74,6 +71,7 @@
         </executions>
       </plugin>
 
+      <!-- so maven can build a package for FrontLine -->
       <plugin>
         <groupId>io.gatling.frontline</groupId>
         <artifactId>frontline-maven-plugin</artifactId>
@@ -93,7 +91,6 @@
         <artifactId>gatling-maven-plugin</artifactId>
         <version>${gatling-maven-plugin.version}</version>
       </plugin>
-
     </plugins>
   </build>
 </project>
