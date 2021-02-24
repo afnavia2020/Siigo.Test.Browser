@@ -11,8 +11,7 @@ class GetConfiguration extends Simulation{
     "Accept-Encoding" -> "gzip, deflate, br"
   )
   val httpProtocol = http
-		.baseUrl("https://servicesqa.siigo.com/catalog/api/v1/Autocomplete")
-    .baseUrl("https://servicesqa.siigo.com/auth/connect/token?")
+		.baseUrl("https://http://qastaging.siigo.com/ISIIGO/Login.aspx")
     .inferHtmlResources(BlackList(""".*\.js""", """.*\.css""", """.*\.gif""", """.*\.jpeg""", """.*\.jpg""", """.*\.ico""", """.*\.woff""", """.*\.woff2""", """.*\.(t|o)tf""", """.*\.png""", """.*detectportal\.firefox\.com.*"""), WhiteList())
 		.acceptHeader("text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9")
 		.acceptEncodingHeader("gzip, deflate")
