@@ -20,6 +20,7 @@ class GetConfiguration extends Simulation{
 		.userAgentHeader("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36")
 
   val tokensFeeder = csv("tokens.csv").circular
+                  .feed(csvFeeder)
 
   val rnd = new Random()
 
