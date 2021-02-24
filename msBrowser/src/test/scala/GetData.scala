@@ -10,7 +10,7 @@ class GetData extends Simulation {
     "Accept-Encoding" -> "gzip, deflate, br"
   )
 
-  val tokenFeeder = csv("data/csv-files/tokens.csv").circular
+  val tokenFeeder = csv("tokens.csv").circular
 
   val rnd = new Random()
 
