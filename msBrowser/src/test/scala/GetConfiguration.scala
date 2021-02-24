@@ -11,7 +11,7 @@ class GetConfiguration extends Simulation{
     "Accept-Encoding" -> "gzip, deflate, br"
   )
 
-  val tokensFeeder = csv("tokens.csv").circular
+  val tokensFeeder = csv("data/tokens.csv").circular
 
   val rnd = new Random()
 
