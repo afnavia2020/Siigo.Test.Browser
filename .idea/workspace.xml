@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6773252-c1ea-4488-9486-1793b601126f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msBrowser/src/test/resources/data/tokens.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msBrowser/src/test/resources/data/users_mt34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msBrowser/src/test/scala/GetConfiguration.scala" beforeDir="false" afterPath="$PROJECT_DIR$/msBrowser/src/test/scala/GetConfiguration.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msBrowser/src/test/scala/GetData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/msBrowser/src/test/scala/GetData.scala" afterDir="false" />
-    </list>
+    <list default="true" id="d6773252-c1ea-4488-9486-1793b601126f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
