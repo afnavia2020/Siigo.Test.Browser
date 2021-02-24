@@ -12,6 +12,7 @@ class GetConfiguration extends Simulation{
   )
   val httpProtocol = http
 		.baseUrl("https://servicesqa.siigo.com/catalog/api/v1/Autocomplete")
+    .baseUrl("https://servicesqa.siigo.com/auth/connect/token?")
 		
   val tokensFeeder = csv("tokens.csv").circular
 
