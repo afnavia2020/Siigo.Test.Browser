@@ -10,10 +10,10 @@ class GetToken extends Simulation{
     "Accept" -> "application/json"
   )
 
-  val csvFeeder = csv("users_mt34.csv").circular
+  val csvFeeder = csv("users_mt34.csv").shard
 
   val tokens_writer = {
-    val fos = new java.io.FileOutputStream("tokens.csv")
+    val fos = new java.io.FileOutputStream("resources/tokens.csv")
     new java.io.PrintWriter(fos,true)
   }
 
