@@ -26,6 +26,7 @@ class GetConfiguration extends Simulation{
     .feed(browserFeeder)
       .exec(http("Get Configuration")
           .post(url + "/GetConfiguration")
+          .formParam("username", "${​​username}​​")
           .headers(headers)
           .header("Authorization", "${tokens}")
           .body(StringBody("""{"type":0,"browserID":"${browserId}"}""")).asJson
