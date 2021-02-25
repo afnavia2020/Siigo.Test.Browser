@@ -49,7 +49,7 @@ class GetConfiguration extends Simulation{
   }
 
   val getConfigurationScenario = scenario("Get Configuration scenario")
-    .feed(csvFeeder)
+    .feed(tokensFeeder)
     .exec(getConfiguration())
 
   setUp(
